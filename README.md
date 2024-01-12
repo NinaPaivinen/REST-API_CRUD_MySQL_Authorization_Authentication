@@ -1,4 +1,4 @@
-# REST-API CRUD with Authorization and Authentication, MYSQL Database example
+# REST-API CRUD, MYSQL with Authorization and Authentication
 
 http://localhost:8080/koirat_api <br />
 http://localhost:8080/api/auth/... login and registry<br />
