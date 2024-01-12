@@ -1,7 +1,8 @@
-module.exports = (sequelize, Sequelize) => {
+
+module.exports = (sequelize, DataTypes, Sequelize) => {
 
   // määritetään käyttäjä
-  const User = sequelize.define("users", {
+  const User = sequelize.define('User', {
     name: {
       type: Sequelize.STRING,
     },
