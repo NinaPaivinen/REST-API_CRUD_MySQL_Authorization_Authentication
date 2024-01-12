@@ -1,7 +1,7 @@
 # REST-API CRUD with Authorization and Authentication, MYSQL Database example
 
 http://localhost:8080/koirat_api <br />
-http://localhost:8080/api/auth/... log in and registery <br />
+http://localhost:8080/api/auth/... login and registry<br />
 http://localhost:8080/api/test/... IDP
 
 ## HTTP-methods 
@@ -12,7 +12,7 @@ http://localhost:8080/api/test/... IDP
 + Upadate dog by ID
 
 ## Authorization and Authentication
-+ New user register
++ New user registry
 + Login
 + JWT (Json Web Token)
 + IDP (User, PM, ADMIN)
