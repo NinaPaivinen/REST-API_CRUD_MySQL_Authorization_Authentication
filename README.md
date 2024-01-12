@@ -1,7 +1,7 @@
 # REST-API CRUD with Authorization and Authentication, MYSQL Database example
 
-http://localhost:8080/koirat_api
-http://localhost:8080/api/auth/... log in and registery
+http://localhost:8080/koirat_api <br />
+http://localhost:8080/api/auth/... log in and registery <br />
 http://localhost:8080/api/test/... IDP
 
 ## HTTP-methods 
@@ -24,7 +24,7 @@ http://localhost:8080/api/test/... IDP
 * Server/runtime environment: NodeJS
 
 ![Alt text](image.png)
-1. Picture. Database table.
+1. Picture. Database with four table.
 
 Date: 6/2023
 > Nina Päivinen
