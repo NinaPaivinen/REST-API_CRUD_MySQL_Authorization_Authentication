@@ -85,3 +85,7 @@ Projekti on opinnäytetyön yhteydessä toteutettu REST API -projekti ja toimii 
 Projekti on aikansa 2023 oppimisprojekti. Se ei ole tarkoitettu tuotantokäyttöön, eikä sen autentikointi- tai auktorisointiratkaisuja tule käyttää sellaisenaan uusissa tuotantojärjestelmissä.
 
 Web-kehityksen käytännöt, tietoturvaratkaisut ja työkalut ovat kehittyneet merkittävästi projektin toteutuksen jälkeen. Projekti säilytetään ennen kaikkea osana omaa kehityshistoriaani ja esimerkkinä siitä, mistä full-stack-kehityksen opiskelu ja käytännön toteutukset lähtivät liikkeelle.
+
+Mukana projektia ja koira tietokantaa innoittamassa the Manu:
+
+![manu](manu.png)
