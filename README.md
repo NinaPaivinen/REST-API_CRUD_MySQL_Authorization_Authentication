@@ -1,4 +1,4 @@
-# REST API CRUD – MySQL
+# Opinnäytetyö: REST-API:n toteutus sisältäen valtuuttamisen ja todentamisen
 
 REST API CRUD -projekti, joka toteuttaa koirien tietojen hallinnan sekä käyttäjien autentikoinnin ja auktorisoinnin.
 
