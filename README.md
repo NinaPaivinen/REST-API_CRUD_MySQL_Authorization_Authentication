@@ -6,6 +6,8 @@ Projektin alkuperäinen toteutus liittyy opinnäytetyöhöni:
 
 https://www.theseus.fi/items/d430863e-cc3e-4ab8-9d4b-49fff3924421
 
+EI TEKOÄLYÄ KÄYTETTY tuolloin.
+
 ## HTTP Methods
 
 API sisältää CRUD-toiminnot koirien hallintaan:
