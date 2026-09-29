@@ -1,30 +1,85 @@
-# REST-API CRUD, MYSQL with Authorization and Authentication
+# REST API CRUD – MySQL
 
-http://localhost:8080/koirat_api <br />
-http://localhost:8080/api/auth/... login and registry<br />
-http://localhost:8080/api/test/... IDP
+REST API CRUD -projekti, joka toteuttaa koirien tietojen hallinnan sekä käyttäjien autentikoinnin ja auktorisoinnin.
 
-## HTTP-methods 
-+ Add new dog
-+ Show all dogs
-+ Show dog by ID
-+ Delete dog by ID
-+ Upadate dog by ID
+Projektin alkuperäinen toteutus liittyy opinnäytetyöhöni:
 
-## Authorization and Authentication
-+ New user registry
-+ Login
-+ JWT (Json Web Token)
-+ IDP (User, PM, ADMIN)
-+ Show all registered users
+https://www.theseus.fi/items/d430863e-cc3e-4ab8-9d4b-49fff3924421
 
-## Specs
-* Database: MySQL
-* Language: JavaScript
-* Server/runtime environment: NodeJS
+## HTTP Methods
 
-![Alt text](image.png)
-1. Picture. Database with four table.
+API sisältää CRUD-toiminnot koirien hallintaan:
 
-Date: 6/2023
-> Nina Päivinen
+* Add new dog
+* Show all dogs
+* Show dog by ID
+* Update dog by ID
+* Delete dog by ID
+
+## Authentication & Authorization
+
+Käyttäjähallinta sisältää:
+
+* User registration
+* Login
+* JWT (JSON Web Token)
+* IDP / käyttäjäroolit
+
+  * User
+  * PM
+  * ADMIN
+* Registered users listing
+
+## API Endpoints
+
+### Dogs
+
+```text
+http://localhost:8080/koirat_api
+```
+
+### Authentication
+
+```text
+http://localhost:8080/api/auth/
+```
+
+Sisältää esimerkiksi rekisteröinnin ja kirjautumisen.
+
+### Authorization / IDP
+
+```text
+http://localhost:8080/api/test/
+```
+
+IDP:n ja käyttäjäroolien testaamiseen.
+
+## Technologies
+
+* **Language:** JavaScript
+* **Runtime:** Node.js
+* **Database:** MySQL
+* **Authentication:** JWT
+* **Authorization:** Role-based access / IDP
+
+## Database
+
+Projektissa käytetään MySQL-tietokantaa, joka koostuu neljästä taulusta.
+
+![Database structure](image.png)
+
+*Database structure – four tables*
+
+## Project Information
+
+**Date:** 06/2023
+
+**Author:** Nina Päivinen
+
+## Status
+
+Projekti on opinnäytetyön yhteydessä toteutettu REST API -projekti ja toimii esimerkkinä CRUD-toiminnoista, JWT-autentikoinnista sekä käyttäjärooleihin perustuvasta auktorisoinnista.
+
+Projekti on aikansa 2023 oppimisprojekti. Se ei ole tarkoitettu tuotantokäyttöön, eikä sen autentikointi- tai auktorisointiratkaisuja tule käyttää sellaisenaan uusissa tuotantojärjestelmissä.
+
+Web-kehityksen käytännöt, tietoturvaratkaisut ja työkalut ovat kehittyneet merkittävästi projektin toteutuksen jälkeen. Projekti säilytetään ennen kaikkea osana omaa kehityshistoriaani ja esimerkkinä siitä, mistä full-stack-kehityksen opiskelu ja käytännön toteutukset lähtivät liikkeelle.
